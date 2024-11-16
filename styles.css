@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-section {
+  background-image: url("./images/hero-img.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 100px 30px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  display: block;
+  font-size: 32px;
+  background: #1d3557;
+  border-radius: 10px;
+  color: white;
+  max-width: 370px;
+  margin: 0 auto 0 auto;
+}
+
+.hero-section p {
+  display: inline-block;
+  font-size: 18.2px;
+  background: #457b9d;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.act-section {
+  background: #f1faee;
+  padding: 20px;
+  text-align: center;
+}
+
+.activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.activities-section h3 {
+  font-weight: bold;
+}
+
+.activities-section p {
+  font-weight: light;
+}
+
+.activities-section img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.business-card {
+  width: 400px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  background: #a8dadc;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 5px black solid;
+}
+.business-card img {
+  height: 248px;
+  width: 180px;
+  border-radius: 10%;
+}
+
+.business-card p {
+  font-style: italic;
+  padding: 0px 10px;
+}
